@@ -129,6 +129,44 @@ const MENU = [
       },
     ],
   },
+
+ {
+    title: "Combos Especiais",
+    data: [
+      {
+        id: "8",
+        title: "Combo Full Stack",
+        price: 79.9,
+        description:
+          "Para dividir com alguém especial. 2 X-'s da sua escolha, 1 Batata grande e 2 bebidas da sua escolha! ",
+        cover: require("../../assets/products/cover/8.png"),
+        thumbnail: require("../../assets/products/thumbnail/8.png"),
+      },
+
+      {
+        id: "9",
+        title: "Combo Dev&QA",
+        price: 55.9,
+        description:
+          "2 Lanches do dia e uma sobremesa da sua escolha!",
+        cover: require("../../assets/products/cover/9.png"),
+        thumbnail: require("../../assets/products/thumbnail/9.png"),
+      },
+
+      {
+        id: "10",
+        title: "Combo estagiário (Kids)",
+        price: 79.9,
+        description:
+          " Deliciosos mini burgers, suco natural e um brinquedo surpresa para a criançada! ",
+        cover: require("../../assets/products/cover/10.png"),
+        thumbnail: require("../../assets/products/thumbnail/10.png"),
+      },
+    ],
+
+    
+  },
+
 ]
 
 const PRODUCTS = MENU.map((item) => item.data).flat()
